@@ -5,39 +5,75 @@
   <title>contacts</title>
 </head>
 <body>
-  <h1>
-    <mark>Контактные данные</mark>
-  </h1>
-  <ul >
-    <li>
-      <a href="https://www.instagram.com/keanureeves09021964/" target="blank">
-        <img src="../images/icons8-instagram-48.png" alt="instagram" >
-      </a>
-     </li>
-    <li>
-      <a href="https://twitter.com/mrkreeves" target="blank">
-        <img src="../images/icons8-twitter-в-квадрате-48.png" alt="twitter">
-      </a>
-     </li>
-    <li>
-      <a href="https://www.youtube.com/channel/UCaeY8l9hzWgMVux-GNfkIkA" target="blank">
-        <img src="../images/icons8-youtube-play-48.png" alt="youtube" >
-      </a>
-    </li>
-    <li>
-      <a href="https://t.me/keanureeves_official" target="blank">
-        <img src="../images/icons8-телеграмма-app-48.png" alt="telegram" >
-      </a>
-    </li>
-    <li>
-      <a href="tel:+380730335031">
-        <img src="../images/Phone_31105.png" alt="phone" >
-      </a>
-    </li>
-  </ul>
-  <p>Перейти на 
-    <a href="../../index.html" target="blank">главную</a>, вернуться к 
-    <a href="./BIO.html" target="blank">биографии</a>
-  </p>
+  <header>
+    <h1>
+      <mark>Контактные данные</mark>
+    </h1>
+  </header>
+  <nav>
+    <ul >
+      <li>
+        <a href="https://www.instagram.com/keanureeves09021964/" target="blank">
+          <img src="../images/icons8-instagram-48.png" alt="instagram" >
+        </a>
+       </li>
+      <li>
+        <a href="https://twitter.com/mrkreeves" target="blank">
+          <img src="../images/icons8-twitter-в-квадрате-48.png" alt="twitter">
+        </a>
+       </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCaeY8l9hzWgMVux-GNfkIkA" target="blank">
+          <img src="../images/icons8-youtube-play-48.png" alt="youtube" >
+        </a>
+      </li>
+      <li>
+        <a href="https://t.me/keanureeves_official" target="blank">
+          <img src="../images/icons8-телеграмма-app-48.png" alt="telegram" >
+        </a>
+      </li>
+      <li>
+        <a href="tel:+380730335031">
+          <img src="../images/Phone_31105.png" alt="phone" >
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <form action="https://mcslayer.com/hillel/post.php" method="POST" target="_blank">
+    <fieldset style="width: 450px">
+      <legend>Contacts</legend>
+      <label>Name
+        <input type="text" name="first-name" placeholder="name" id="first-name">
+      </label>
+      <label >Surname
+        <input type="text" name="last-name" placeholder="surname">
+      </label><br><br>
+      <label>Email 
+        <input type="text" name="email" placeholder="example@gmail.com">
+      </label><br><br>
+      <label>Male
+        <input type="radio" name="sex" value="male">
+      </label>
+      <label>Female 
+        <input type="radio" name="sex" value="female">
+      </label><br><br>
+      <textarea name="text" cols="30" rows="10"></textarea><br><br>
+      Подтверждаете ли вы использование ваших данных?<br><br>
+      <label>Да
+        <input type="checkbox" name="rules" value="yes">
+      </label>
+      <label>Нет
+        <input type="checkbox" name="rules" value="yes">
+      </label><br><br>
+      <input type="reset">
+      <input type="submit">
+    </fieldset> 
+  </form>
+  <footer>
+    <p>Перейти на 
+      <a href="../../index.html" target="blank">главную</a>, вернуться к 
+      <a href="./BIO.html" target="blank">биографии</a>
+    </p>
+  </footer>
 </body>
 </html>
